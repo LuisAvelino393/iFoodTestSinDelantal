@@ -1,0 +1,6 @@
+com\lavelino\registration\microservices\balancer\BalancerController.class
+com\lavelino\registration\microservices\balancer\BalancerService.class
+com\lavelino\registration\microservices\balancer\BalancerHomeController.class
+com\lavelino\registration\microservices\balancer\BalancerServer.class
+com\lavelino\registration\microservices\balancer\Greeting.class
+com\lavelino\registration\microservices\balancer\BalancerService$1.class

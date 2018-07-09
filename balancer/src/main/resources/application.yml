@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: suggest-spotify-playlist-service
+  freemarker:
+    enabled: false
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+
+error:
+  path=/error
+
+eureka:
+    instance:
+    leaseRenewalIntervalInSeconds: 5
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8080/eureka/
+
+server:
+  port: 8082   # HTTP (Tomcat) port
+  
+ribbon:
+    listOfServers: localhost:8083,localhost:8084,localhost:8085
+    ServerListRefreshInterval: 15000

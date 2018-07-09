@@ -1,0 +1,21 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+    <body>
+
+        <h1>Balancer Microservice</h1>
+
+        <ul class="openlist">
+            <li>Eureka Dashboard: <a
+                    href="http://localhost:8080">http://localhost:8080</a></li>
+            <li>Check applications registered: <a
+                    href="http://localhost:1111/eureka/apps/">http://localhost:8080/eureka/apps/</a></li>
+
+            <li>London,UK: <a th:href="@{/suggest/playlist/city/London,UK}">/suggest/playlist/city/London,UK</a></li>
+
+
+        </ul>
+
+    </body>
+</html>
